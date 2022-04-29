@@ -1,7 +1,7 @@
 <?php
-ini_set("display_errors", "On");
-error_reporting(E_ALL);
+
 require_once("class_generateCode.php");
+
 $generateCode = new generateCode();
 set_time_limit(180); // set max_execution time required to > 100000 codes 
 
